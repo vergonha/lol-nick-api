@@ -1,0 +1,26 @@
+{
+  "name": "nickname-checker-api",
+  "version": "1.0.0",
+  "description": "League of Legends nickname checker API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "League",
+    "of",
+    "Legends",
+    "API",
+    "Nickname",
+    "checker"
+  ],
+  "author": "Vergonha",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.9",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "yup": "^1.2.0"
+  }
+}
